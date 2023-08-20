@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Homework 51</title>
+</head>
+<body>
+    <form class="heroes__form" id="heroesForm">
+		<label>
+			Name Surname: <input type="text" placeholder="Iron Man" value="Iron Man" data-name="heroName">
+		</label>
+		<label>
+			Comics: <select data-name="heroComics">
+                <!-- <option value="DC">DC</option>
+				<option value="Marvel">Marvel</option>
+				<option value="Comix Zone">Comix Zone</option> -->
+			</select>
+		</label>
+		<label>
+			Favourite: 
+			<div class="hero__favourite-input">
+				<input type="checkbox" data-name="heroFavourite">
+			</div>
+		</label>
+
+		<button tupe="button">Add Hero</button>
+	</form>
+
+	<table class="heroes__table" id="heroesTable">
+		<thead>
+			<tr>
+				<th>Name Surname</th>
+				<th>Comics</th>
+				<th>Favourite</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- <tr>
+				<td>Iron Man</td>
+				<td>Marvel</td>
+				<td>
+					<label class="hero__favourite-input">
+						Favourite: <input type="checkbox">
+					</label>
+				</td>
+				<td><button type="button">Delete</button></td>
+			</tr> -->
+		</tbody>
+	</table>
+    <script src="index.js"></script>
+</body>
+</html>
